@@ -1,4 +1,4 @@
-package lab03;
+
 public class YerbaMate extends Tea {
 
     /***INSTANCE VARIABLES***/
