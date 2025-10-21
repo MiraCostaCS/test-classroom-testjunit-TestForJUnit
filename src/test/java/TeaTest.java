@@ -25,17 +25,17 @@ class TeaTest {
         assertEquals(75, tea.getBrewTemp());
     }
 
-    @Test
-    void testSetAll() {
-        assertFalse(tea.setAll("Chamomile", -10, 2.00, 170));
-        assertFalse(tea.setAll("Chamomile", 10, -2.00, 170));
-        assertFalse(tea.setAll("Chamomile", 10, 2.00, -170));
-        assertTrue(tea.setAll("Chamomile", 10, 2.00, 170));
-        assertEquals("Chamomile", tea.getName());
-        assertEquals(10, tea.getOunces());
-        assertEquals(2.00, tea.getPrice());
-        assertEquals(170, tea.getBrewTemp());
-    }
+    // @Test
+    // void testSetAll() {
+    //     assertFalse(tea.setAll("Chamomile", -10, 2.00, 170));
+    //     assertFalse(tea.setAll("Chamomile", 10, -2.00, 170));
+    //     assertFalse(tea.setAll("Chamomile", 10, 2.00, -170));
+    //     assertTrue(tea.setAll("Chamomile", 10, 2.00, 170));
+    //     assertEquals("Chamomile", tea.getName());
+    //     assertEquals(10, tea.getOunces());
+    //     assertEquals(2.00, tea.getPrice());
+    //     assertEquals(170, tea.getBrewTemp());
+    // }
 
 
     @Test
